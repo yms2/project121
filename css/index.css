@@ -1,0 +1,82 @@
+.wrapper{
+    width: 100%;
+    display: block
+}
+
+.gnbBar{
+    width: 100%;
+    height: 62px;
+    border-bottom: 1px solid #dde1e5;;
+    z-index: 1;
+}
+
+.main-logo {
+    text-align: center;
+    position: relative;
+}
+.gnbBarLeft{
+    height: 62px;
+    margin-top: -62px;
+    padding-left: 1px;
+}
+.gnbAllmenu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 127px;
+    height: 62px;
+}
+.gnbAllmenu a{
+    display: flex;
+    padding: 23px 23px 21px;
+    font-size: 16px;
+}
+.gnbAllmenu span{
+}
+.gnbAllmenu a:hover .gnbIcon {
+    color:#07f ;
+    transition: all .2s linear;
+    background-color: #07f;
+}
+.gnbBarLeft .gnbAllmenu .gnbIcon {
+    display: block;
+    width: 18px;
+    height: 16px;
+    margin: 1px 15px 0 0;
+    background: transparent url(/img/set_gnb.png) 0 0 no-repeat;
+    background-color: black;
+}
+
+.gnbBarRight{
+    position: absolute;
+    display: flex;
+    top: 0;
+    right: 0; 
+    width: 261.88px;
+    height: 62px;
+    background-color: black;
+}
+.card {
+    width: 43px;
+    background: url(/img/set_gnb_icon.png) 0 0 no-repeat;
+    margin-top: 15px;
+}
+.pcbang{
+    width: 53px;
+    background: url(/img/set_gnb_icon.png) 0 0 no-repeat;
+    margin-top: -35px;
+}
+.gnbJoin{
+    width:88px;
+    
+}
+.gnbJoin span{
+    padding:27px 5px;
+    background-color:white;
+    line-height: 52px;
+}
+.gnbLogin{
+    width: 114px;
+    background-color:white ;
+}
