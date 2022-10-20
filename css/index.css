@@ -34,10 +34,13 @@
 }
 .gnbAllmenu span{
 }
-.gnbAllmenu a:hover .gnbIcon {
-    color:#07f ;
+.gnbAllmenu a:hover .gnbIcon{
     transition: all .2s linear;
     background-color: #07f;
+}
+.gnbAllmenu a:hover .menu{
+    color: #07f;
+    transition: all .2s linear;
 }
 .gnbBarLeft .gnbAllmenu .gnbIcon {
     display: block;
@@ -47,7 +50,11 @@
     background: transparent url(/img/set_gnb.png) 0 0 no-repeat;
     background-color: black;
 }
-
+.sub-menu{
+    width: 500px;
+    height: 800px;
+    background-color: blue;
+}
 .gnbBarRight{
     position: absolute;
     display: flex;
